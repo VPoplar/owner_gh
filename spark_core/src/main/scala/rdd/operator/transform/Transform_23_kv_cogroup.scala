@@ -15,7 +15,7 @@ object Transform_23_kv_cogroup {
     // TODO 关闭资源
     sc.stop()
 
-    // TODO cogroup  connect+group 分组连接
+    // TODO cogroup  connect+group 分组连接  相当于全连接
 
     def cogroup(): Unit = {
       val rdd1 = sc.makeRDD(List(("a", 1), ("b", 2), ("c", 3)))
